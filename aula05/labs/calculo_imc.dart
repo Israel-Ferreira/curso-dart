@@ -11,6 +11,7 @@ main(List<String> args) {
   mostrarImc(peso, altura);
 }
 
+// função que mostra imprime a situação da pessoa de acordo com o seu peso e altura
 mostrarImc(double peso, double altura) {
   double imc = calcImc(peso, altura);
 
@@ -27,6 +28,7 @@ mostrarImc(double peso, double altura) {
   }
 }
 
+//função que calcula o imc
 double calcImc(double peso, double altura) {
   return peso / pow(altura, 2);
 }
