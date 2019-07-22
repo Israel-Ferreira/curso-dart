@@ -3,10 +3,10 @@ import 'dart:math';
 
 main(List<String> args) {
   print("Digite o seu peso: ");
-  var peso = double.parse(stdin.readLineSync());
+  double peso = double.parse(stdin.readLineSync());
 
   print("Digite sua altura: ");
-  var altura = double.parse(stdin.readLineSync());
+  double altura = double.parse(stdin.readLineSync());
 
   mostrarImc(peso, altura);
 }
