@@ -1,6 +1,6 @@
 import 'dart:io';
 
-main(List<String> args) {
+calculoIdade() {
   print("Digite sua Idade: ");
   var idade = int.parse(stdin.readLineSync());
 
@@ -16,3 +16,4 @@ main(List<String> args) {
   }
 
 }
+

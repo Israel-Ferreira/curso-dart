@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
-main(List<String> args) {
+calculoImc() {
   print("Digite o seu peso: ");
   double peso = double.parse(stdin.readLineSync());
 

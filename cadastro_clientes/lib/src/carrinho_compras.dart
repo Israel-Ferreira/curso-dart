@@ -2,7 +2,7 @@ import 'dart:io';
 
 List<String> produtos = [];
 
-main(List<String> args) {
+carrinhoCompras() {
   int opt = 0;
 
   do {
